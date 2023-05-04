@@ -865,7 +865,7 @@ textarea {
   background-color: var(--white);
   border: 2px solid;
   border-color: var(--border-color-9);
-  height: 65px;
+  height: 60px;
   -webkit-box-shadow: none;
   box-shadow: none;
   padding-left: 20px;
@@ -4189,9 +4189,12 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   font-weight: 700; }
 
 .header-top-btn {
-  display: inline-block; }
+  display: inline-block; 
+}
   .header-top-btn a {
     display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
     padding: 0 20px;
     line-height: 40px;
     background-color: var(--ltn__secondary-color);
@@ -4351,7 +4354,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   margin-right: 0px; }
 
 .ltn__main-menu > ul > li > a {
-  font-size: 18px;
+  font-size: 16px;
   padding: 20px 10px;
   display: inline-block;
   white-space: nowrap;
@@ -14150,7 +14153,9 @@ input.cart-plus-minus-box {
 
 .footer-newsletter input[type="email"] {
   margin: 0;
-  padding-right: 50px; }
+  height: 50px;
+  padding-right: 50px; 
+}
 
 .footer-newsletter .btn-wrapper {
   position: absolute;
